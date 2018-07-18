@@ -1,12 +1,9 @@
 {
-  "name": "coffeetracker",
+  "name": "coffeeTrackr",
   "version": "0.0.1",
   "description": "demo",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeetracker.bna",
-    "pretest": "npm run lint",
-    "lint": "eslint .",
-    "test": "nyc mocha -t 0 test/*.js && cucumber-js"
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeeTrackr.bna"
   },
   "author": "Horea Porutiu",
   "email": "horeaporutiu@gmail.com",
