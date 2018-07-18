@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "demo",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeeTrackr.bna"
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeetrackr.bna"
   },
   "author": "Horea Porutiu",
   "email": "horeaporutiu@gmail.com",
